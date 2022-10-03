@@ -1,0 +1,48 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#top{
+    text-align: center;
+}
+#logo{
+color: white;
+background-color: red;
+display: inline-block;
+font-size: 32px;
+font-weight: bold;
+padding: 8px;
+margin-top: 16px;
+
+}
+#underlogo{
+font-family: 'Courier New', Courier, monospace;
+font-size: x-large;
+margin: 6px;
+color: aquamarine;
+}
+
+#navigation a{
+    color: grey;
+    padding: 8px;
+
+}
+#navigation a:hover{
+color: red;
+font-size: larger;    
+}
+
+#image{
+
+  max-width: 100px;
+   ;
+    margin-top: 16px;
+    margin-bottom: 12px;
+}
+
+#main{
+    width: 500px;
+    margin: auto;
+    
+
+}
