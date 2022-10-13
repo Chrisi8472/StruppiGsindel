@@ -203,5 +203,6 @@ span{
     background-image: linear-gradient(90deg,purple,blue);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    
 
 }
