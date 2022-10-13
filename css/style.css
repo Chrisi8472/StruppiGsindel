@@ -195,6 +195,9 @@ justify-content: center;
 .container h1{
 
 font-size: 150px;
+align-items: center;
+justify-content: center;
+
 
 
 }
