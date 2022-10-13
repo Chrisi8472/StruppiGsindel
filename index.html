@@ -25,10 +25,10 @@
 <body>
     <nav class="navbar">
         <div id="trapezoid">
-          <a class="sub-home" href="#">Home</a>
-          <a href="#About" class="expandHome">About</a>
+          <a class="sub-home" href="index.html">Home</a>
+          <a href="index.html" class="expandHome">Home</a>
           <div class="subnav">
-            <button class="subnavbtn">Clients<i class="fa fa-caret-down"></i></button>
+            <button class="subnavbtn">Medien<i class="fa fa-caret-down"></i></button>
             <div class="subnav-content">
               <div id="subnav-trapezoid">
                 <a href="#Clients">Burger King</a>
@@ -39,12 +39,12 @@
           </div>
       
           <div class="subnav">
-            <button class="subnavbtn">Services<i class="fa fa-caret-down"></i></button>
+            <button class="subnavbtn">Sachen<i class="fa fa-caret-down"></i></button>
             <div class="subnav-content">
               <div class="subnav-trapezoid">
-                <a href="#Services">Print Design</a>
-                <a href="#Services">Web Design</a>
-                <a href="#Services">Mobile App Development</a>
+                <a href="eyes/index.html">nega</a>
+                <a href="eyes/index.html">mega nega</a>
+                <a href="eyes/index.html">himmler</a>
               </div>
             </div>
           </div>
@@ -52,15 +52,26 @@
         </div>
       </nav>
       
-      <section id="About">
-        <h1>About</h1>
-        <hr>
-        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+      <section id="About"> 
+        <div class="container">
+
+            <h1>I'm <span class="auto-type"></span></h1>
+           </div>
+           <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+           <script>
+                var typed = new Typed(".auto-type", {
+                    strings: ["Coding", "sleeping", "eating", "commiting HTL", "liking my life"],
+                    typeSpeed:150,
+                    backSpeed:150,
+                    loop: true
+                })
+        
+        
+           </script>
+           
       </section>
-      <section id="Clients">
-        <h1>Clients</h1>
-        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
-        <hr>
+      <section id="Clients" href="eyes/index.html">
+       
       </section>
       <section id="Services">
         <h1>Services</h1>
@@ -68,21 +79,6 @@
         <hr>
       </section>
    
-   <div class="container">
-
-    <h1>I'm <span class="auto-type"></span></h1>
-   </div>
-   <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
-   <script>
-        var typed = new Typed(".auto-type", {
-            strings: ["Coding", "sleeping", "eating", "commiting HTL", "liking my life"],
-            typeSpeed:150,
-            backSpeed:150,
-            loop: true
-        })
-
-
-   </script>
    
    
    
