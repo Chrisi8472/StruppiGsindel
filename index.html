@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 
 
-<head> 
-    
+<head>
+
     <title> Chrisi</title>
     <link rel="stylesheet" href="css/style.css">
+
     <link rel="icon" type="image/png" href="img/knapp.png">
+    <script src="./js/navbar.js"></script>
     <meta name="viewport" content="with=device-with, initial-scale=1">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -13,67 +15,101 @@
     <meta property="og:url" content="chrisi.netlify.app">
     <meta property="og:title" content="me lituarally smart kappa">
     <meta property="og:description" content="holt mich hier raus">
-    <meta property="og:image" content="https://www.queendom.com/images/jff/708_0.jpg" >
+    <meta property="og:image" content="https://www.queendom.com/images/jff/708_0.jpg">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="@Chrisi#1022">
     <meta name="twitter:creator" content="@Chrisi8472">
-   
-    
-   
-
-
 
 </head>
-<body> 
-    
-        
-       
-    
-    
-        <div class="container">
-            <h1>I'm <span class="auto-type"></span></h1> 
 
-        </div>
-
-        <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"> </script>
-
-        <script>
-            var  typed = new Typed(".auto-type", {
-                 strings: ["Coding", "Doing your mom", "Slepping", "beeing drunk"],
-                 typeSpeed: 150,
-                 backSpeed: 150,
-                 loop: true
-            })
-
-        </script>
-    <div id="top">
-        
+<body>
+    <nav class="navbar">
+        <div id="trapezoid">
+          <a class="sub-home" href="#">Home</a>
+          <a href="#About" class="expandHome">About</a>
+          <div class="subnav">
+            <button class="subnavbtn">Clients<i class="fa fa-caret-down"></i></button>
+            <div class="subnav-content">
+              <div id="subnav-trapezoid">
+                <a href="#Clients">Burger King</a>
+                <a href="#Clients">Southwest Airlines</a>
+                <a href="#Clients">Levi Strauss</a>
+              </div>
+            </div>
+          </div>
       
-        
-     
-     <div id="navigation">
+          <div class="subnav">
+            <button class="subnavbtn">Services<i class="fa fa-caret-down"></i></button>
+            <div class="subnav-content">
+              <div class="subnav-trapezoid">
+                <a href="#Services">Print Design</a>
+                <a href="#Services">Web Design</a>
+                <a href="#Services">Mobile App Development</a>
+              </div>
+            </div>
+          </div>
+          <a href="https://codepen.io/pec-man" class="expandHome">Contact</a>
+        </div>
+      </nav>
+      
+      <section id="About">
+        <h1>About</h1>
+        <hr>
+        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+      </section>
+      <section id="Clients">
+        <h1>Clients</h1>
+        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+        <hr>
+      </section>
+      <section id="Services">
+        <h1>Services</h1>
+        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+        <hr>
+      </section>
+   
+   <div class="container">
 
-            <a href="#Was kann ich eigentlich">Was kann ich eigentlich?</a>
-            <a href="#katzenvideos">katzenvideos</a>
-            <a href="#Wo ich aktiv bin">Wo ich aktiv bin</a>
-        </div>
-        <div id="image">
-            <img src="img/knapp.png" alt="bild von einr katze" srcset="">
-        </div>
+    <h1>I'm <span class="auto-type"></span></h1>
+   </div>
+   <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+   <script>
+        var typed = new Typed(".auto-type", {
+            strings: ["Coding", "sleeping", "eating", "commiting HTL", "liking my life"],
+            typeSpeed:150,
+            backSpeed:150,
+            loop: true
+        })
+
+
+   </script>
+   
+   
+   
+   
+   
+   
+   
+   
+    <div id="image">
+        <img src="img/test1.jpg" alt="bild von einr katze" srcset="">
     </div>
     <div id="main">
         <section id="Was kann ich eigentlich"></section>
-            <h2>Ich kann valorant spielen</h2>
-            <p>und bin professioner htl schüler</p>
+        <h2>Ich kann valorant spielen</h2>
+        <p>und bin professioner htl schüler</p>
         <section id="katzenvideos"></section>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/eotR-c4Lfzw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><iframe width="560" height="315" src="https://www.youtube.com/embed/eotR-c4Lfzw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><iframe width="560" height="315" src="https://www.youtube.com/embed/eotR-c4Lfzw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/eotR-c4Lfzw" title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
         <section id="Wo ich aktiv bin"></section>
-           <h2> nur mit deiner Mama</h2>
+        <h2> nur mit deiner Mama</h2>
     </div>
     <div id="footer"></div>
 
 
-        
+
     </div>
 
 </body>
